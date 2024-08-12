@@ -17,3 +17,33 @@
   border-radius: 0.09rem;
   box-shadow: 0.2px 0.5px 0.8px 1px #000000;
 }
+
+.controls .pop{
+  position: absolute;
+  border:1px solid rgb(11, 11, 11);
+  transform: translate(10.6rem,-1rem);
+  height: 1.6rem;
+  width: 4rem;
+  background-color: #44434356;
+  cursor: pointer;
+  border-radius: 0rem;
+  animation: fadeInOut 5s infinite;
+  transition: color 0.3s ease, transform 5s ease;
+}
+
+@keyframes fadeInOut {
+ 
+  10% {
+      opacity: 1;
+      transform: translate(10.6rem,-10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translate(10.6rem,2px);
+  }
+}
+
+.controls .pop:hover{
+  background-color: rgb(0, 255, 0);
+  animation:none;
+}
