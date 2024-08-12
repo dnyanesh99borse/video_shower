@@ -47,3 +47,24 @@
   background-color: rgb(0, 255, 0);
   animation:none;
 }
+
+.controls .cover{
+  position:absolute;
+  width:25.55rem;
+  height:4.28rem;
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  transform: translate(3.5px,3.494px);
+}
+
+.controls .nav{
+  position:fixed;
+  width:25.55rem;
+  height:4.28rem;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.184);
+  backdrop-filter: blur(50px);
+  transform: translate(3.5px,3.494px);
+  display: none;
+}
+
