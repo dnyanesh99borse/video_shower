@@ -1,8 +1,19 @@
 .videoshower{
-  border: 0.4rem solid rgb(5, 35, 38);
-  border-radius:8px;
-  width:25.9rem;
+  border: 0.1rem solid rgb(5, 35, 38);
+  border-bottom: 0.8rem solid rgb(0, 0, 0);;
+  width:25.83rem;
   height:19.5rem;
   z-index: 5;
   position: relative;
+}
+
+.controls .stand{
+  border-bottom: 38px solid #090808;
+	border-left: 17px solid transparent;
+	border-right: 17px solid transparent;
+	height:0;
+	width: 125px;
+  transform: translate(7.67rem,21rem);
+  border-radius: 0.09rem;
+  box-shadow: 0.2px 0.5px 0.8px 1px #000000;
 }
