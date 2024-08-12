@@ -1,0 +1,8 @@
+.videoshower{
+  border: 0.4rem solid rgb(5, 35, 38);
+  border-radius:8px;
+  width:25.9rem;
+  height:19.5rem;
+  z-index: 5;
+  position: relative;
+}
