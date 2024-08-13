@@ -21,7 +21,7 @@
 .controls .pop{
   position: absolute;
   border:1px solid rgb(11, 11, 11);
-  transform: translate(10.6rem,-1rem);
+  transform: translate(11rem,-1rem);
   height: 1.6rem;
   width: 4rem;
   background-color: #44434356;
@@ -35,11 +35,11 @@
  
   10% {
       opacity: 1;
-      transform: translate(10.6rem,-10px);
+      transform: translate(11rem,-10px);
   }
   100% {
       opacity: 1;
-      transform: translate(10.6rem,2px);
+      transform: translate(11rem,2px);
   }
 }
 
@@ -58,13 +58,24 @@
 }
 
 .controls .nav{
-  position:fixed;
+  position:absolute;
   width:25.55rem;
   height:4.28rem;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.184);
+  background-color: rgba(0, 0, 0, 0.841);
   backdrop-filter: blur(50px);
   transform: translate(3.5px,3.494px);
   display: none;
+  align-items: center;
+  justify-content: center;
 }
 
+.controls .nav button{
+  position:relative;
+  background-color:white;
+  transform: translate(11.24rem,1rem);
+  height: 2rem;
+  width: 3rem;
+  border-radius:3rem;
+  border: 2px solid rgb(9, 255, 0);
+}
