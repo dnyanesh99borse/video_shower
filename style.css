@@ -1,3 +1,4 @@
+
 .videoshower{
   border: 0.1rem solid rgb(5, 35, 38);
   border-bottom: 0.8rem solid rgb(0, 0, 0);;
@@ -44,7 +45,8 @@
 }
 
 .controls .pop:hover{
-  background-color: rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0, 0.33);
+  border-radius: 4px;
   animation:none;
 }
 
@@ -73,9 +75,19 @@
 .controls .nav button{
   position:relative;
   background-color:white;
-  transform: translate(11.24rem,1rem);
-  height: 2rem;
-  width: 3rem;
+  transform: translate(10.3rem,0.8rem);
+  height: 1.2rem;
+  width: 5rem;
   border-radius:3rem;
   border: 2px solid rgb(9, 255, 0);
+}
+
+.controls .nav button i{
+  margin-top: -3.8px;
+}
+
+.controls .nav button:hover{
+  scale: 1.001;
+  transform: translate(10.3rem,0.8rem);
+  box-shadow: 0.7px 0px 3px  rgb(9, 255, 0);
 }
